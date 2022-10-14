@@ -1,0 +1,160 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+/*.mobile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.mobile .links{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 35px;
+  background-color: blue;
+
+}
+
+
+
+@media (min-width: 900px){
+  .desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: red;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .desktop .links{
+    list-style: none;
+  }
+
+  .desktop .links li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.desktop{
+  display: none;
+}
+
+.mobile{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+
+.mobile .left, .mobile .right{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 20px;
+ 
+}
+
+.mobile .profile{
+  width: 35px;
+}
+
+.mobile .links{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  padding-top: 20%;
+  padding-left: 5%;
+  flex-direction: column;
+  background-color: white;
+  width: 60%;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mobile .menu{
+  z-index: 1;
+}
+
+.items{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.items{
+  display: flex;
+  height: 300px ;
+}
+
+.items .left{
+  flex: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.items .images{
+  flex: 90%;
+
+}
+
+.items .right{
+  flex: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
