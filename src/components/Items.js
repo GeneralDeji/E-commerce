@@ -3,11 +3,8 @@ import First from '../assets/image-product-1.jpg'
 import Second from '../assets/image-product-2.jpg'
 import Third from '../assets/image-product-3.jpg'
 import Fourth from '../assets/image-product-4.jpg'
-import Previous from '../assets/icon-previous.svg'
-import Next from '../assets/icon-next.svg'
 import {FaChevronCircleLeft, FaChevronCircleRight} from 'react-icons/fa'
 import { useState } from 'react'
-import { useEffect } from 'react'
 
 const Items = () => {
 

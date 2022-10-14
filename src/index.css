@@ -137,6 +137,7 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: 10px;
 }
 
 .items .images{
@@ -150,7 +151,85 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-right: 10px;
 }
+
+.main{
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.main .description h4{
+  font-size: 12px;
+  color: orange;
+  padding-top: 20px;
+  letter-spacing: 0.2rem;
+}
+
+.main .description h1{
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 0;
+}
+
+.main .description p{
+  font-size: 14px;
+  line-height: 2rem;
+  color: gray;
+  padding: 10px 0;
+}
+
+.main .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+
+.main .price .left{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.main .price p{
+  color: rgb(255, 136, 0);
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.main .price h6{
+  font-size: 12px;
+  color: gray;
+}
+
+.main .increment{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 15px 0;
+}
+
+.main .increment p{
+  font-weight: bold;
+}
+
+.main .btn{
+  background-color: rgb(255, 136, 0);
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 90%;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
 
 
 
